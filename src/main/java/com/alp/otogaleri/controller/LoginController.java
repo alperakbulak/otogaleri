@@ -1,4 +1,4 @@
-package com.sabancidx.otogaleri.controller;
+package com.alp.otogaleri.controller;
 
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;

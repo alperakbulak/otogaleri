@@ -1,4 +1,4 @@
-package com.sabancidx.otogaleri.model;
+package com.alp.otogaleri.model;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

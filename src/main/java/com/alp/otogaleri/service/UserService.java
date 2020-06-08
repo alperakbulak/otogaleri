@@ -1,7 +1,7 @@
-package com.sabancidx.otogaleri.service;
+package com.alp.otogaleri.service;
 
-import com.sabancidx.otogaleri.model.User;
-import com.sabancidx.otogaleri.repository.UserRepository;
+import com.alp.otogaleri.model.User;
+import com.alp.otogaleri.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -49,4 +49,7 @@ public class UserService {
         return (List<User>) userRepository.findAll();
     }
 
+    public User getUserByUsername(String username) {
+        return userRepository.findByUsername(username);
+    }
 }

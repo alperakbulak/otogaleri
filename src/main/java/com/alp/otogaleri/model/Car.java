@@ -1,4 +1,4 @@
-package com.sabancidx.otogaleri.model;
+package com.alp.otogaleri.model;
 
 import com.sun.istack.NotNull;
 

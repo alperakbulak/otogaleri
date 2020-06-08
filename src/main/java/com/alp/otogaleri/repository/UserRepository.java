@@ -1,6 +1,6 @@
-package com.sabancidx.otogaleri.repository;
+package com.alp.otogaleri.repository;
 
-import com.sabancidx.otogaleri.model.User;
+import com.alp.otogaleri.model.User;
 import org.springframework.data.repository.CrudRepository;
 
 public interface UserRepository extends CrudRepository<User, Long> {

@@ -1,7 +1,7 @@
-package com.sabancidx.otogaleri;
+package com.alp.otogaleri;
 
-import com.sabancidx.otogaleri.model.User;
-import com.sabancidx.otogaleri.repository.UserRepository;
+import com.alp.otogaleri.model.User;
+import com.alp.otogaleri.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

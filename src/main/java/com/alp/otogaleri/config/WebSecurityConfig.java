@@ -1,4 +1,4 @@
-package com.sabancidx.otogaleri.config;
+package com.alp.otogaleri.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.security.SecurityProperties;
